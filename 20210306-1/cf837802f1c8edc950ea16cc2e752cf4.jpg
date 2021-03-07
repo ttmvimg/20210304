@@ -1,0 +1,23 @@
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>504</title>
+</head>
+<body>
+<div id='main' style='display:none'>
+<i><h2>Something error:</h2></i>
+<p><h3>504</h3><h3><font color='red'>cann't recv head from remote server</font></h3></p>
+<p>Please check or <a href='javascript:location.reload()'>try again</a> later.</p>
+<div>hostname: tu-11</div><hr>
+<div id='pb'></div>
+</div>
+<script language='javascript'>
+	var referer = escape(document.referrer);
+	var url = escape(document.URL);
+	var msg = 'cann%27t%20recv%20head%20from%20remote%20server';
+    var hostname='tu-11';
+	var event_id='';
+	document.write('<scr'+'ipt language="javascript" src="http://127.0.0.1/system/error?code=504&vh=tuping"></scr' + 'ipt>');
+</script>
+<!-- padding for ie --><!-- padding for ie --><!-- padding for ie --><!-- padding for ie -->
+</body></html>
